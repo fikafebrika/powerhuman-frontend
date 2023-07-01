@@ -6,8 +6,11 @@
   >
     <div class="px-6 py-[50px] gap-y-[50px] flex flex-col">
       <div class="flex items-center justify-between">
-        <a href="#" class="flex justify-center">
-          <img src="/assets/svgs/logo-type.svg" alt="" />
+        <a href="#" class="flex justify-center ml-2">
+          <div class="flex flex-row items-center justify-center space-x-3">
+            <img src="/assets/images/logo.png" alt="" width="35" />
+            <p class="text-[20px] font-bold text-sky-900">HuManage</p>
+          </div>
         </a>
         <a href="#" id="toggleCloseSidebar" class="lg:hidden">
           <svg

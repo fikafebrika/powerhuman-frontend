@@ -13,12 +13,12 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#4640DE',
+        primary: '#3378FF',
         secondary: '#F6F6FD',
         grey: '#ABB3C4',
-        dark: '#121F3E',
+        dark: '#001220',
         page: '#F8F8FA',
-        success: '#2ED16C',
+        success: '#009922',
       },
     },
   },
