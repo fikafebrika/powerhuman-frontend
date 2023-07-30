@@ -11,21 +11,23 @@
     </p>
     <form class="w-full card" @submit.prevent="userLogin">
       <div class="form-group">
-        <label for="" class="text-grey">Email Address</label>
+        <label for="" class="text-dark">Email Address</label>
         <input
           type="email"
           class="input-field"
           v-model="login.email"
           placeholder="Your email address.."
+          required
         />
       </div>
       <div class="form-group">
-        <label for="" class="text-grey">Password</label>
+        <label for="" class="text-dark">Password</label>
         <input
           type="password"
           class="input-field"
           v-model="login.password"
           placeholder="Your password.."
+          required
         />
       </div>
       <button type="submit" class="w-full btn btn-primary mt-[14px]">

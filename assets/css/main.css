@@ -20,11 +20,11 @@
   }
 
   .input-field {
-    @apply placeholder:text-grey text-dark py-[11px] px-6 rounded-[100px] outline outline-[1.4px]  outline-dark focus:outline-primary;
+    @apply placeholder:text-grey text-dark py-[11px] px-4 rounded-lg outline outline-[1.4px]  outline-grey focus:outline-primary;
   }
 
   .btn {
-    @apply rounded-full py-[11px] px-9 font-semibold text-center capitalize;
+    @apply rounded-lg py-[11px] px-9 font-semibold text-center capitalize;
   }
 
   .btn-primary {
@@ -32,7 +32,7 @@
   }
 
   .btn-outline-primary {
-    @apply border border-primary text-primary;
+    @apply border border-primary text-primary bg-white;
   }
 }
 
